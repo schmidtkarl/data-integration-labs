@@ -1,0 +1,4 @@
+Markitdown is a simple text based programming language used for simple explanantions that require no real styling and no tags. developed in pnnsylvania USA
+the best quick overview can be reached here: commonmark.org
+
+  
