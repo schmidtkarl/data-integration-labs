@@ -12,8 +12,8 @@ My contributions to team Taner can be found _[here](https://github.com/Niggo50/P
 
 | Theme                            | Lab     |
 |:---------------------------------|---------|
-|Open Source Software & Open Data  |[lab/01/]()|
-|Command Line Interface            |[lab/02/]()|
+|Open Source Software & Open Data  |[lab/01/](https://github.com/schmidtkarl/data-integration-labs/tree/main/labs/01)|
+|Command Line Interface            |[lab/02/](https://github.com/schmidtkarl/data-integration-labs/tree/main/labs/02)|
 
 ### Licence
 For the data in this repository, the MIT Licence applies:
