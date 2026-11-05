@@ -176,12 +176,49 @@ To change the text for a local link: use the | character:
 ```
 
 ### How to link to other sections and other pages
+Given you hae a larch markdown file; you may benefit from <br>
+linking to certain locations or chapters in your text.
+[Going through the motions](#links-and-images) <br>
+
+ this is what you would write:
+ 
+ ```markdown
+[Going through the motions](#liks-and-images)
+```
+
+**now, for linking to other github repos** <br>
+you take the link and then just put it in brackets after your square brackets. 
+
+### _in github however..._
+you can also give a relative path name and the markdown will take it. <br>
+for example: 
+```markdown
+[this links to my other githubrepo](relative path/goal.extension) <br>
+done
+```
+> for linking to another file in the same folder, the relative path is sufficient.
+> the absolut path will work too.
+
+_**when linking to another repo**_ you must use the absolute path = link = url 
+
+### code in markdown
+Can be displayed by writing a minimum of three backticks followed by the name of the code language: 
+```python
+print("hello world"
+```
+```bash
+this is bash
+```
+INLINE CODE CAN ALSO BE shown with single backticks
 
 
+```json
+this is json
+```
 
+### using block quotes and quotes 
 
-
-
+What are block quotes? And what are quotes? 
 
 
 
