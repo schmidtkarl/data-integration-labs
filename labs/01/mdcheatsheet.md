@@ -219,7 +219,71 @@ this is json
 ### using block quotes and quotes 
 
 What are block quotes? And what are quotes? 
+   _simply a highlighted section in your markdown._ <br>
+   
+```markdown
+you can achieve it by putting > at the beginning of a textline.
+```
+
+**for a full guide to using blockquotes I kindly refer to:** (markdownformatting.com/quotes)
 
 
+
+### In Github, a set of labels lets you customise blockquotes. these tags include
+```markdown
+> [!NOTE]
+> [!TIP]
+> [!WARNING]
+> [!CAUTION]
+> [!IMPORTANT]
+```
+### Tables
+
+you can write tables in Markdown as follows: <br>
+```markdown
+
+| entry | quantity |
+|-------|----------|
+|wine 1 | 12 bottles |
+|wine 2 | 18 bottles |
+|wine \| | 12 bottles |
+
+```
+this would be the result <br> 
+
+| entry | quantity |
+|-------|----------|
+|wine 1 | 12 bottles |
+|wine 2 | 18 bottles |
+|wine \| | 12 bottles |
+
+
+### Layout
+horizontal rules are created by typing a minimum of three lower lines or dashes. \___ or \--- <br>
+
+furthermore you can create **dropdowns** with the following code
+```html
+<details>
+<summary>Cool Dropdown</summary>
+blah blah blah blah you found me!
+</details>
+credits to chrisfrew.in
+```
+<br>
+
+Most programming langueges enable you to write text that are not interpreted as code, so-called 'comments' <br>
+in Markdown it seems rather hard to comment something since all is rendered as text.  
+to include a secret comment in the footer of your source code <br>
+```markdown
+[comment]: <> (This is a comment, it will not be included)
+[comment]: <> (in  the output file unless you use it in)
+[comment]: <> (a reference style link.)
+```
+Most important here is that you do not use the reference \[comment\] somewhere in your text when reference linking. 
+
+
+### Github flavoured Markdown
+in github, it's possible to write slightly _cooler_ markdown due to some added styling functions. <br>
+a link to a concise cheat sheet can be found here: https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf <br>
 
 
